@@ -1,0 +1,19 @@
+{
+    "button": [
+        {
+            "type": "view",
+            "name": "主页",
+            "url": "https://58h29234s3.goho.co/"
+        },
+        {
+            "name": "更多功能",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "新年烟花",
+                    "url": "https://58h29234s3.goho.co/firework"
+                }
+            ]
+        }
+    ]
+}

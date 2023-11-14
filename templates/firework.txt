@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>小周说让你多等一会儿</title>
+        <!-- <link rel="icon" type="image/x-icon" href="/firework/favicon.jpg"> -->
+        <link rel="stylesheet" href="/firework/css/style.css">
+    </head>
+    <body onselectstart="return false">
+        <!-- 消息提示 -->
+        <div class="message" fontsize="35">
+            <p>
+                <br>来自小周的提醒：</br>
+                <br>请单击屏幕开启背景音乐</br>
+            </p>
+            
+        </div>
+        <!-- 流星与星火 -->
+        <div id="backgroundRendering" style="z-index: 0;"></div>
+        <!--烟花-->
+        <canvas id="fireworks" style="z-index: 9999;">
+            您的浏览器不支持canvas标签。
+        </canvas>
+        <!-- 背景音乐 -->
+        <audio id="bgm" src="/firework/mp3/bgm.mp3" loop autoplay>
+            您的浏览器不支持 audio 标签。
+        </audio>
+        <!-- 自定义内容弹窗 -->
+        <div style="display: none">
+            <div class="shape">🏮2023新年快乐🏮</div>
+            <div class="shape">🏮逢考必过🏮</div>
+            <div class="shape">🏮兔飞猛进🏮</div>
+            <div class="shape">🏮大展宏兔🏮</div>
+            <div class="shape">🏮颜值兔出🏮</div>
+            <div class="shape">🏮财富兔出🏮</div>
+            <div class="shape">🏮快给小周发红包🏮</div>
+            <div class="shape">🏮快给小周发红包🏮</div>
+            <div class="shape">🏮快给小周发红包🏮</div>
+            <div class="shape">🏮快给小周发红包🏮</div>
+            <div class="shape">🏮希望你不要不识好歹🏮</div>
+            <div class="shape">🏮前兔无量🏮</div>
+        </div>
+        <script src="/firework/js/main.js"></script>
+    </body>
+</html>
